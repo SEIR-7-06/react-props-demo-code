@@ -24,11 +24,11 @@ The App component is the top parent-level component.<br>
 All other components will go inside of there.
 
 ## Passing Props to a Component
-1. Set up component to receive props. Add `props` as a parameter to the function component.
-- for example `function Person(props) {}`
+1. Set up the child component to receive props. Add `props` as a parameter to the function component.
+- for example, in Person.jsx `function Person(props) {}`
 
 2. Pass in props when you render the component
-- for example `<Person personName="Herbert" />`
+- for example, in App.js `<Person personName="Herbert" />`
 
 3. Pass props into our JSX for that component.
-- for example `<h2>Name: {props.personName}</h2>`
+- for example, in Person.jsx `<h2>Name: {props.personName}</h2>`
