@@ -1,8 +1,8 @@
 # React Review and Props Notes
 
 ## Steps to Set Up a New React App
-- npx create-react-app <the-name-of-your-app>
-- cd <the-name-of-your-app>
+- npx create-react-app `the-name-of-your-app`
+- cd `the-name-of-your-app`
 - npm start
 
 
