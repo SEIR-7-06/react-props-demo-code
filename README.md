@@ -25,10 +25,10 @@ All other components will go inside of there.
 
 ## Passing Props to a Component
 1. Set up component to receive props. Add `props` as a parameter to the function component.
--- for example `function Person(props) {}`
+- for example `function Person(props) {}`
 
 2. Pass in props when you render the component
--- for example `<Person personName="Herbert" />`
+- for example `<Person personName="Herbert" />`
 
 3. Pass props into our JSX for that component.
--- for example `<h2>Name: {props.personName}</h2>`
+- for example `<h2>Name: {props.personName}</h2>`
