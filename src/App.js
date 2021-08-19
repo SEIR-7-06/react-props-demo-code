@@ -1,25 +1,23 @@
 import logo from './logo.svg';
+import Person from './components/Person';
+import Dog from './components/Dog';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Person />
+      <Person />
+      <Person />
+
+      <Dog />
     </div>
   );
 }
 
 export default App;
+
+// Activity
+// - Create a Person component
+// - Import the Person component into App.js
+// - Render the Person component in our App component
