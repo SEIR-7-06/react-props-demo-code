@@ -29,7 +29,7 @@ export default App;
 // function App() {
 //   const favPlaces = [
 //     'the park',
-//     'the coach',
+//     'the couch',
 //     'the beach'
 //   ]
 
