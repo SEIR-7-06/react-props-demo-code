@@ -1,27 +1,59 @@
-import Person from './components/Person';
+// import Person from './components/Person';
 // import Dog from './components/Dog';
 // import Goldfish from './components/Goldfish';
+import Pets from './components/Pets';
 import './App.css';
 
 // ===============================================
 
-// 1. Practice Passing Multiple Props to a Component (strings, numbers, and booleans)
 function App() {
+  const petsArray = [
+    {
+      petName: 'Milo',
+      animalType: 'dog'
+    },
+    {
+      petName: 'Layla',
+      animalType: 'goldfish'
+    },
+    {
+      petName: 'Simon',
+      animalType: 'cat'
+    }
+  ];
+
   return (
     <div className="App">
-      <Person
-        personName="Herbert"
-        favColor="Grey"
-        occupation="Accountant"
-        hometown="San Diego, CA"
-        numOfPets={1}
-        isMorningPerson={true}
-      />
+      <Pets petsArray={petsArray} />
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // ===============================================
 
